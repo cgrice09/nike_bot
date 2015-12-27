@@ -1,4 +1,4 @@
-var size = "10.5";
+var size = "6.5";
 var amount = 1;
 var flag = 0;
 
