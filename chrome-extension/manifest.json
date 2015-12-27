@@ -4,11 +4,11 @@
   "version": "1",
   "content_scripts": [
     {
-      "matches": ["http://www.footaction.com/*", "http://www.footaction.com/*"],
+      "matches": ["http://www.footaction.com/*"],
       "js": ["autocart.js"]
     }
   ], "permissions": [
-    "tabs", "http://www.footaction.com/*", "http://www.footaction.com/*", "webNavigation", "webRequest", "tabs"
+    "tabs", "http://www.footaction.com/*", "webNavigation", "webRequest", "tabs"
   ]
 
 }
