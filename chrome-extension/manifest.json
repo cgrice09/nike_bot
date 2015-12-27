@@ -1,5 +1,5 @@
 {
-  "name": "Nike",
+  "name": "footaction",
   "manifest_version": 2,
   "version": "1",
   "content_scripts": [
