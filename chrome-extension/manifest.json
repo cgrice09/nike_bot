@@ -1,14 +1,14 @@
 {
-  "name": "footaction",
+  "name": "adidas",
   "manifest_version": 2,
   "version": "1",
   "content_scripts": [
     {
-      "matches": ["http://www.footaction.com/*", "http://m.footaction.com/?uri=product&sku=05381003&model=83295&cm=GLOBAL%20SEARCH:%20KEYWORD%20SEARCH*"],
+      "matches": ["http://www.adidas.com/*", "http://www.adidas.com/us*"],
       "js": ["autocart.js"]
     }
   ], "permissions": [
-    "tabs", "http://www.footaction.com/*", "http://m.footaction.com/?uri=product&sku=05381003&model=83295&cm=GLOBAL%20SEARCH:%20KEYWORD%20SEARCH*", "webNavigation", "webRequest", "tabs"
+    "tabs", "http://www.adidas.com/*", "http://www.adidas.com/us*", "webNavigation", "webRequest", "tabs"
   ]
 
 }
